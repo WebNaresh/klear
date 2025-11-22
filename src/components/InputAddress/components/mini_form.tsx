@@ -3,9 +3,9 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from "../../../../../components/form";
-import { loadGoogleMapsApi } from "../../../../../lib/google-maps";
-import { cn } from "../../../../../lib/utils";
+} from "../../../components/form";
+import { loadGoogleMapsApi } from "../../../lib/google-maps";
+import { cn } from "../../../lib/utils";
 import { MapPin } from "lucide-react";
 import React, { useCallback, useEffect, useState } from "react";
 import {

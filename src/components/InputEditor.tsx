@@ -45,8 +45,8 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from "../shadcn/tooltip";
-import { Switch } from "../../components/switch";
-import { Textarea } from "../../components/textarea";
+import { Switch } from "../../shadcn/switch";
+import { Textarea } from "../../shadcn/textarea";
 import { Bot, Sparkles } from "lucide-react";
 import markdown from "@wcj/markdown-to-html";
 import { generateEditorContent } from "./actions/editor.action";

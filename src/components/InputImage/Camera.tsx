@@ -1,10 +1,6 @@
-import {
-  Alert,
-  AlertDescription,
-  AlertTitle,
-} from "../../../../components/alert";
-import { Button } from "../../../../components/button";
-import { cn } from "../../../../lib/utils";
+import { Alert, AlertDescription, AlertTitle } from "../../shadcn/alert";
+import { Button } from "../../shadcn/button";
+import { cn } from "../../lib/utils";
 import {
   AlertCircle,
   CameraIcon,

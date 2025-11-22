@@ -1,6 +1,6 @@
 "use client";
 
-import { Button } from "../../../../components/button";
+import { Button } from "../../shadcn/button";
 import {
   Dialog,
   DialogContent,
@@ -8,21 +8,16 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from "../../../../components/dialog";
+} from "../../shadcn/dialog";
 import {
   FormControl,
   FormField,
   FormItem,
   FormLabel,
   FormMessage,
-} from "../../../../components/form";
-import {
-  Tabs,
-  TabsContent,
-  TabsList,
-  TabsTrigger,
-} from "../../../../components/tabs";
-import { cn } from "../../../../lib/utils";
+} from "../../shadcn/form";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "../../shadcn/tabs";
+import { cn } from "../../lib/utils";
 import {
   Camera,
   CameraIcon,

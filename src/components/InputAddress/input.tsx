@@ -1,4 +1,4 @@
-import { FormField } from "../../../../components/form";
+import { FormField } from "../../shadcn/form";
 import React from "react";
 import { useFormContext } from "react-hook-form";
 import { UIInputFieldProps } from "../../InputField";

@@ -1,4 +1,4 @@
-import { Button } from "../../../../components/button";
+import { Button } from "../../shadcn/button";
 import { XIcon } from "lucide-react";
 import Image from "next/image";
 import { useRef, useState } from "react";
