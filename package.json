@@ -16,7 +16,6 @@
   },
   "dependencies": {
     "@hookform/resolvers": "^3.3.0",
-    "@pixels-shope/ui": "latest",
     "lucide-react": "^0.290.0",
     "react-hook-form": "^7.48.0",
     "zod": "^3.22.0",
