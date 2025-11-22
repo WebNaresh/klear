@@ -1,5 +1,36 @@
 "use client";
 
+import { useMutation } from "@tanstack/react-query";
+import { CharacterCount } from "@tiptap/extension-character-count";
+import { Placeholder } from "@tiptap/extension-placeholder";
+import { TextAlign } from "@tiptap/extension-text-align";
+import { Underline } from "@tiptap/extension-underline";
+import { EditorContent, useEditor } from "@tiptap/react";
+import StarterKit from "@tiptap/starter-kit";
+import markdown from "@wcj/markdown-to-html";
+import {
+  Bold,
+  Bot,
+  Code,
+  Heading1,
+  Heading2,
+  Heading3,
+  Italic,
+  List,
+  ListOrdered,
+  Quote,
+  Redo,
+  Sparkles,
+  Strikethrough,
+  Underline as UnderlineIcon,
+  Undo,
+} from "lucide-react";
+import { useCallback, useEffect, useRef, useState } from "react";
+import { useFormContext } from "react-hook-form";
+import { toast } from "react-hot-toast";
+import { Textarea } from "../../shadcn/textarea";
+import { Button } from ".././shadcn/button";
+import { cn } from "../lib//utils";
 import {
   FormControl,
   FormField,
@@ -7,51 +38,14 @@ import {
   FormLabel,
   FormMessage,
 } from "../shadcn/form";
-import { cn } from "../lib//utils";
-import { useFormContext } from "react-hook-form";
-import StarterKit from "@tiptap/starter-kit";
-import { EditorContent, useEditor } from "@tiptap/react";
-import { Underline } from "@tiptap/extension-underline";
-import { TextAlign } from "@tiptap/extension-text-align";
-import { Placeholder } from "@tiptap/extension-placeholder";
-import { CharacterCount } from "@tiptap/extension-character-count";
-import { Button } from ".././shadcn/button";
 import { Separator } from "../shadcn/separator";
-import {
-  Bold,
-  Italic,
-  Underline as UnderlineIcon,
-  Strikethrough,
-  Code,
-  List,
-  ListOrdered,
-  Quote,
-  Redo,
-  Undo,
-  Heading1,
-  Heading2,
-  Heading3,
-  AlignLeft,
-  AlignCenter,
-  AlignRight,
-  Link as LinkIcon,
-  Image as ImageIcon,
-  Type,
-} from "lucide-react";
-import { useCallback, useState, useEffect, useRef } from "react";
 import {
   Tooltip,
   TooltipContent,
   TooltipProvider,
   TooltipTrigger,
 } from "../shadcn/tooltip";
-import { Switch } from "../../shadcn/switch";
-import { Textarea } from "../../shadcn/textarea";
-import { Bot, Sparkles } from "lucide-react";
-import markdown from "@wcj/markdown-to-html";
 import { generateEditorContent } from "./actions/editor.action";
-import { toast } from "react-hot-toast";
-import { useMutation } from "@tanstack/react-query";
 import { UIInputFieldProps } from "./InputField";
 
 const markdownRegex =
