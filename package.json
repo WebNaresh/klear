@@ -1,7 +1,7 @@
 {
   "name": "klear",
   "version": "0.1.0",
-  "description": "A comprehensive UI Input Field component built with shadcn/ui",
+  "description": "A comprehensive UI Input Field component built with shadcn/ui for Next.js",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
@@ -12,7 +12,8 @@
   },
   "peerDependencies": {
     "react": ">=18",
-    "react-dom": ">=18"
+    "react-dom": ">=18",
+    "next": ">=13"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.3.0",
@@ -30,6 +31,8 @@
   },
   "keywords": [
     "react",
+    "nextjs",
+    "next",
     "input",
     "form",
     "ui",
