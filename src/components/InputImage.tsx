@@ -1,20 +1,20 @@
 "use client";
 
-import { Button } from "../../../components/button";
+import { Button } from "../shadcn/button";
 import {
   Dialog,
   DialogContent,
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from "../../../components/dialog";
+} from "../shadcn/dialog";
 import {
   FormControl,
   FormField,
   FormItem,
   FormLabel,
   FormMessage,
-} from "../../../components/form";
+} from "../shadcn/form";
 import { cn } from "../../../lib/utils";
 import { CameraIcon, ImageIcon, UploadIcon } from "lucide-react";
 import { useCallback, useRef, useState } from "react";

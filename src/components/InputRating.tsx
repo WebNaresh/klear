@@ -1,11 +1,11 @@
-import { Button } from "../../../components/button";
+import { Button } from "../shadcn/button";
 import {
   FormControl,
   FormField,
   FormItem,
   FormLabel,
   FormMessage,
-} from "../../../components/form";
+} from "../shadcn/form";
 import { cn } from "../../../lib/utils";
 import { useState } from "react";
 import { useFormContext } from "react-hook-form";

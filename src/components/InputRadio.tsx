@@ -1,13 +1,8 @@
 "use client";
 
-import {
-  FormControl,
-  FormField,
-  FormItem,
-  FormMessage,
-} from "../../../components/form";
-import { Label } from "../../../components/label";
-import { RadioGroup, RadioGroupItem } from "../../../components/radio-group";
+import { FormControl, FormField, FormItem, FormMessage } from "../shadcn/form";
+import { Label } from "../shadcn/label";
+import { RadioGroup, RadioGroupItem } from "../shadcn/radio-group";
 import { cn } from "../../../lib/utils";
 import { LucideIcon } from "lucide-react";
 import { FieldValues, useFormContext } from "react-hook-form";

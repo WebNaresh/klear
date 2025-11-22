@@ -6,8 +6,8 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from "../../../components/form";
-import { Switch } from "../../../components/switch";
+} from "../shadcn/form";
+import { Switch } from "../shadcn/switch";
 import { cn } from "../../../lib/utils";
 import { LucideIcon } from "lucide-react";
 import { FieldValues, Path, useFormContext } from "react-hook-form";

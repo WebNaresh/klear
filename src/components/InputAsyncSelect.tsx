@@ -8,8 +8,8 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from "../../../components/form";
-import { Select } from "../../../components/select";
+} from "../shadcn/form";
+import { Select } from "../shadcn/select";
 import { useFormContext } from "react-hook-form";
 import AsyncSelect from "react-select/async";
 import { UIInputFieldProps } from "../InputField";

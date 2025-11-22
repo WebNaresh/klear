@@ -6,7 +6,7 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from "../../../components/form";
+} from "../shadcn/form";
 import { cn } from "../../../lib/utils";
 import { useFormContext } from "react-hook-form";
 import StarterKit from "@tiptap/starter-kit";
@@ -15,8 +15,8 @@ import { Underline } from "@tiptap/extension-underline";
 import { TextAlign } from "@tiptap/extension-text-align";
 import { Placeholder } from "@tiptap/extension-placeholder";
 import { CharacterCount } from "@tiptap/extension-character-count";
-import { Button } from "../../../components/button";
-import { Separator } from "../../../components/separator";
+import { Button } from "../shadcn/button";
+import { Separator } from "../shadcn/separator";
 import {
   Bold,
   Italic,
@@ -44,7 +44,7 @@ import {
   TooltipContent,
   TooltipProvider,
   TooltipTrigger,
-} from "../../../components/tooltip";
+} from "../shadcn/tooltip";
 import { Switch } from "../../components/switch";
 import { Textarea } from "../../components/textarea";
 import { Bot, Sparkles } from "lucide-react";

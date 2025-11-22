@@ -1,19 +1,15 @@
 "use client";
 
-import { Button } from "../../../components/button";
-import { Calendar } from "../../../components/calendar";
+import { Button } from "../shadcn/button";
+import { Calendar } from "../shadcn/calendar";
 import {
   FormControl,
   FormField,
   FormItem,
   FormLabel,
   FormMessage,
-} from "../../../components/form";
-import {
-  Popover,
-  PopoverContent,
-  PopoverTrigger,
-} from "../../../components/popover";
+} from "../shadcn/form";
+import { Popover, PopoverContent, PopoverTrigger } from "../shadcn/popover";
 import { cn } from "../../../lib/utils";
 import { format } from "date-fns";
 import { Calendar as CalendarIcon } from "lucide-react";

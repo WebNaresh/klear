@@ -6,12 +6,8 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from "../../../components/form";
-import {
-  InputOTP,
-  InputOTPGroup,
-  InputOTPSlot,
-} from "../../../components/input-otp";
+} from "../shadcn/form";
+import { InputOTP, InputOTPGroup, InputOTPSlot } from "../shadcn/input-otp";
 import { cn } from "../../../lib/utils";
 import React from "react";
 import { FieldValues, useFormContext } from "react-hook-form";

@@ -1,14 +1,14 @@
 "use client";
 
-import { Button } from "../../../components/button";
+import { Button } from "../shadcn/button";
 import {
   FormControl,
   FormField,
   FormItem,
   FormLabel,
   FormMessage,
-} from "../../../components/form";
-import { Textarea } from "../../../components/textarea";
+} from "../shadcn/form";
+import { Textarea } from "../shadcn/textarea";
 import { cn } from "../../../lib/utils";
 import { useQuery } from "@tanstack/react-query";
 import { Copy, Loader2, RefreshCw, Sparkles } from "lucide-react";

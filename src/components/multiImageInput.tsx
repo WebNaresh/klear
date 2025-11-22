@@ -1,25 +1,21 @@
 "use client";
-import {
-  Avatar,
-  AvatarFallback,
-  AvatarImage,
-} from "../../../components/avatar";
-import { Button } from "../../../components/button";
+import { Avatar, AvatarFallback, AvatarImage } from "../shadcn/avatar";
+import { Button } from "../shadcn/button";
 import {
   FormControl,
   FormField,
   FormItem,
   FormLabel,
   FormMessage,
-} from "../../../components/form";
-import { Badge } from "../../../components/badge";
+} from "../shadcn/form";
+import { Badge } from "../shadcn/badge";
 import {
   Dialog,
   DialogContent,
   DialogDescription,
   DialogHeader,
   DialogTitle,
-} from "../../../components/dialog";
+} from "../shadcn/dialog";
 import { cn } from "../../../lib/utils";
 import React, { useState, useCallback, useEffect } from "react";
 import { FieldValues, useFormContext } from "react-hook-form";

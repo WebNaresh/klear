@@ -6,7 +6,7 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from "../../../components/form";
+} from "../shadcn/form";
 import { cn } from "../../../lib/utils";
 import * as React from "react";
 import { useFormContext } from "react-hook-form";

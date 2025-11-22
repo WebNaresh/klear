@@ -6,8 +6,8 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from "../../../components/form";
-import { Input } from "../../../components/input";
+} from "../shadcn/form";
+import { Input } from "../shadcn/input";
 import { cn } from "../../../lib/utils";
 import { Eye, EyeOff } from "lucide-react";
 import { FC, useState } from "react";

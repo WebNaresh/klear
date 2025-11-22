@@ -1,15 +1,10 @@
 "use client";
 
-import { Badge } from "../../../components/badge";
-import { Button } from "../../../components/button";
-import { Calendar } from "../../../components/calendar";
+import { Badge } from "../shadcn/badge";
+import { Button } from "../shadcn/button";
+import { Calendar } from "../shadcn/calendar";
 
-import {
-  Tabs,
-  TabsContent,
-  TabsList,
-  TabsTrigger,
-} from "../../../components/tabs";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "../shadcn/tabs";
 
 import {
   FormControl,
@@ -17,21 +12,17 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from "../../../components/form";
-import { Input } from "../../../components/input";
-import { Label } from "../../../components/label";
-import {
-  Popover,
-  PopoverContent,
-  PopoverTrigger,
-} from "../../../components/popover";
-import { Separator } from "../../../components/separator";
+} from "../shadcn/form";
+import { Input } from "../shadcn/input";
+import { Label } from "../shadcn/label";
+import { Popover, PopoverContent, PopoverTrigger } from "../shadcn/popover";
+import { Separator } from "../shadcn/separator";
 import {
   Tooltip,
   TooltipContent,
   TooltipProvider,
   TooltipTrigger,
-} from "../../../components/tooltip";
+} from "../shadcn/tooltip";
 import { cn } from "../../../lib/utils";
 import { format, getDaysInMonth } from "date-fns";
 import {

@@ -1,13 +1,13 @@
 "use client";
 
-import { Checkbox } from "../../../components/checkbox";
+import { Checkbox } from "../shadcn/checkbox";
 import {
   FormControl,
   FormField,
   FormItem,
   FormLabel,
   FormMessage,
-} from "../../../components/form";
+} from "../shadcn/form";
 import { cn } from "../../../lib/utils";
 import React from "react";
 import { FieldValues, useFormContext } from "react-hook-form";

@@ -6,8 +6,8 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from "../../../components/form";
-import { Input } from "../../../components/input";
+} from "../shadcn/form";
+import { Input } from "../shadcn/input";
 import { cn } from "../../../lib/utils";
 import { LucideIcon } from "lucide-react";
 import React from "react";
