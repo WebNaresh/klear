@@ -28,7 +28,7 @@ import {
 import { useCallback, useEffect, useRef, useState } from "react";
 import { useFormContext } from "react-hook-form";
 import { toast } from "react-hot-toast";
-import { Textarea } from "../../shadcn/textarea";
+import { Textarea } from "../shadcn/textarea";
 import { Button } from ".././shadcn/button";
 import { cn } from "../lib//utils";
 import {
@@ -45,8 +45,8 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from "../shadcn/tooltip";
-import { generateEditorContent } from "./actions/editor.action";
-import { UIInputFieldProps } from "./InputField";
+import { generateEditorContent } from "../actions/editor.action";
+import { UIInputFieldProps } from "../InputField";
 
 const markdownRegex =
   /(^#{1,6}\s)|(^\s*[\-\*]\s)|(\[.+\]\(.+\))|([\*_]{1,2}.+[\*_]{1,2})/;
