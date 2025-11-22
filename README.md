@@ -67,7 +67,7 @@ export default function MyForm() {
           type="text"
           Icon={User}
         />
-        
+
         <UIInputField
           name="email"
           label="Email Address"
@@ -87,42 +87,42 @@ export default function MyForm() {
 
 The `type` prop determines the rendered component:
 
-| Type | Description |
-|------|-------------|
-| `text` | Standard text input |
-| `password` | Password input with toggle visibility |
-| `email` | Email input validation |
-| `number` | Numeric input |
-| `select` | Dropdown select (requires `options`) |
-| `multiSelect` | Multiple selection dropdown |
-| `date` | Date picker |
-| `datetime-local` | Date and time picker |
-| `text-area` | Multiline text area |
-| `switch` | Toggle switch |
-| `checkbox` | Single checkbox |
-| `radio` | Radio group (requires `options`) |
-| `rating` | Star rating component |
-| `color-picker` | Color picker with presets |
-| `OTP` | One-Time Password input |
-| `phone` | Phone number input |
-| `file` | File upload input |
-| `places_autocomplete` | Google Places address autocomplete |
-| `ai-text-area` | AI-enhanced text generation area |
+| Type                  | Description                           |
+| --------------------- | ------------------------------------- |
+| `text`                | Standard text input                   |
+| `password`            | Password input with toggle visibility |
+| `email`               | Email input validation                |
+| `number`              | Numeric input                         |
+| `select`              | Dropdown select (requires `options`)  |
+| `multiSelect`         | Multiple selection dropdown           |
+| `date`                | Date picker                           |
+| `datetime-local`      | Date and time picker                  |
+| `text-area`           | Multiline text area                   |
+| `switch`              | Toggle switch                         |
+| `checkbox`            | Single checkbox                       |
+| `radio`               | Radio group (requires `options`)      |
+| `rating`              | Star rating component                 |
+| `color-picker`        | Color picker with presets             |
+| `OTP`                 | One-Time Password input               |
+| `phone`               | Phone number input                    |
+| `file`                | File upload input                     |
+| `places_autocomplete` | Google Places address autocomplete    |
+| `ai-text-area`        | AI-enhanced text generation area      |
 
 ## Props
 
-| Prop | Type | Description |
-|------|------|-------------|
-| `name` | `string` | **Required**. The field name (matches Zod schema). |
-| `type` | `string` | **Required**. The type of input to render. |
-| `label` | `string` | Label text displayed above the input. |
-| `placeholder` | `string` | Placeholder text. |
-| `description` | `string` | Helper text displayed below the input. |
-| `Icon` | `LucideIcon` | Icon component to display inside the input. |
-| `options` | `{ label: string, value: string }[]` | Options for select, radio, etc. |
-| `required` | `boolean` | Marks the field as required visually. |
-| `disabled` | `boolean` | Disables the input. |
-| `className` | `string` | Custom classes for the container. |
+| Prop          | Type                                 | Description                                        |
+| ------------- | ------------------------------------ | -------------------------------------------------- |
+| `name`        | `string`                             | **Required**. The field name (matches Zod schema). |
+| `type`        | `string`                             | **Required**. The type of input to render.         |
+| `label`       | `string`                             | Label text displayed above the input.              |
+| `placeholder` | `string`                             | Placeholder text.                                  |
+| `description` | `string`                             | Helper text displayed below the input.             |
+| `Icon`        | `LucideIcon`                         | Icon component to display inside the input.        |
+| `options`     | `{ label: string, value: string }[]` | Options for select, radio, etc.                    |
+| `required`    | `boolean`                            | Marks the field as required visually.              |
+| `disabled`    | `boolean`                            | Disables the input.                                |
+| `className`   | `string`                             | Custom classes for the container.                  |
 
 ## License
 
