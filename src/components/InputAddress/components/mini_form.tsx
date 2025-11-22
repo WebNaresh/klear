@@ -3,7 +3,7 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from "../../../components/form";
+} from "../../../shadcn/form";
 import { loadGoogleMapsApi } from "../../../lib/google-maps";
 import { cn } from "../../../lib/utils";
 import { MapPin } from "lucide-react";
