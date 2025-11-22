@@ -8,5 +8,5 @@ const apiKey = process.env.NEXT_PUBLIC_GEMINI_API_KEY || "";
 const gemini_ai = new GoogleGenerativeAI(apiKey);
 
 export const gemini = gemini_ai.getGenerativeModel({
-  model: "gemini-2.5-flash-lite",
+    model: "gemini-2.5-flash-lite",
 });
