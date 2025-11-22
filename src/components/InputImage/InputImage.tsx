@@ -16,7 +16,7 @@ import {
   FormLabel,
   FormMessage,
 } from "../../shadcn/form";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "../../shadcn/tabs";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "./../../shadcn/tabs";
 import { cn } from "../../lib/utils";
 import {
   Camera,
