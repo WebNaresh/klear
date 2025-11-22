@@ -1,6 +1,6 @@
 "use server";
 
-import { gemini } from "../../../lib/gemini_ai";
+import { gemini } from "../lib//gemini_ai";
 import markdown from "@wcj/markdown-to-html";
 
 interface GenerateContentParams {

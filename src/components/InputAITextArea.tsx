@@ -9,7 +9,7 @@ import {
   FormMessage,
 } from "../shadcn/form";
 import { Textarea } from "../shadcn/textarea";
-import { cn } from "../../../lib/utils";
+import { cn } from "../lib//utils";
 import { useQuery } from "@tanstack/react-query";
 import { Copy, Loader2, RefreshCw, Sparkles } from "lucide-react";
 import { useEffect, useState } from "react";

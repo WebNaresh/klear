@@ -8,7 +8,7 @@ import {
   FormMessage,
 } from "../shadcn/form";
 import { InputOTP, InputOTPGroup, InputOTPSlot } from "../shadcn/input-otp";
-import { cn } from "../../../lib/utils";
+import { cn } from "../lib//utils";
 import React from "react";
 import { FieldValues, useFormContext } from "react-hook-form";
 import { BaseInputProps } from "../InputField";

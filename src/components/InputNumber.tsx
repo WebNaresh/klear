@@ -8,7 +8,7 @@ import {
   FormMessage,
 } from "../shadcn/form";
 import { Input } from "../shadcn/input";
-import { cn } from "../../../lib/utils";
+import { cn } from "../lib//utils";
 import { LucideIcon } from "lucide-react";
 import React from "react";
 import { FieldValues, Path, useFormContext } from "react-hook-form";

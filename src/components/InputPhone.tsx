@@ -6,7 +6,7 @@ import {
   FormMessage,
 } from "../shadcn/form";
 import { PhoneInput } from "../shadcn/phone-input";
-import { cn } from "../../../lib/utils";
+import { cn } from "../lib//utils";
 import { useFormContext } from "react-hook-form";
 import { UIInputFieldProps } from "../InputField";
 

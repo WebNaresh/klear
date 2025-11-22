@@ -6,7 +6,7 @@ import {
   FormLabel,
   FormMessage,
 } from "../shadcn/form";
-import { cn } from "../../../lib/utils";
+import { cn } from "../lib//utils";
 import { useState } from "react";
 import { useFormContext } from "react-hook-form";
 import { FaStar } from "react-icons/fa"; // Import a star icon from react-icons

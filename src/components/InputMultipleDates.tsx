@@ -23,7 +23,7 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from "../shadcn/tooltip";
-import { cn } from "../../../lib/utils";
+import { cn } from "../lib//utils";
 import { format, getDaysInMonth } from "date-fns";
 import {
   Calendar as CalendarIcon,

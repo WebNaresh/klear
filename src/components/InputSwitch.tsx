@@ -8,7 +8,7 @@ import {
   FormMessage,
 } from "../shadcn/form";
 import { Switch } from "../shadcn/switch";
-import { cn } from "../../../lib/utils";
+import { cn } from "../lib//utils";
 import { LucideIcon } from "lucide-react";
 import { FieldValues, Path, useFormContext } from "react-hook-form";
 import { IconType } from "react-icons";

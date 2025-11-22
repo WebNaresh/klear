@@ -15,7 +15,7 @@ import {
   FormLabel,
   FormMessage,
 } from "../shadcn/form";
-import { cn } from "../../../lib/utils";
+import { cn } from "../lib//utils";
 import { CameraIcon, ImageIcon, UploadIcon } from "lucide-react";
 import { useCallback, useRef, useState } from "react";
 import {

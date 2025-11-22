@@ -8,7 +8,7 @@ import {
   FormMessage,
 } from "../shadcn/form";
 import { Input } from "../shadcn/input";
-import { cn } from "../../../lib/utils";
+import { cn } from "../lib//utils";
 import { Eye, EyeOff } from "lucide-react";
 import { FC, useState } from "react";
 import { useFormContext } from "react-hook-form";

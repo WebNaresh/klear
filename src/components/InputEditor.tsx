@@ -7,7 +7,7 @@ import {
   FormLabel,
   FormMessage,
 } from "../shadcn/form";
-import { cn } from "../../../lib/utils";
+import { cn } from "../lib//utils";
 import { useFormContext } from "react-hook-form";
 import StarterKit from "@tiptap/starter-kit";
 import { EditorContent, useEditor } from "@tiptap/react";

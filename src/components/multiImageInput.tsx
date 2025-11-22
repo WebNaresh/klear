@@ -16,7 +16,7 @@ import {
   DialogHeader,
   DialogTitle,
 } from "../shadcn/dialog";
-import { cn } from "../../../lib/utils";
+import { cn } from "../lib//utils";
 import React, { useState, useCallback, useEffect } from "react";
 import { FieldValues, useFormContext } from "react-hook-form";
 import {
