@@ -4,16 +4,16 @@ import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuTrigger,
-} from "../../components/dropdown-menu";
+} from "./shadcn/dropdown-menu";
 import {
   FormControl,
   FormField,
   FormItem,
   FormLabel,
   FormMessage,
-} from "../../components/form";
-import { Input } from "../../components/input";
-import { cn } from "../../lib/utils";
+} from "./shadcn/form";
+import { Input } from "./shadcn/input";
+import { cn } from "./lib/utils";
 import {
   Calendar,
   Check,
@@ -56,7 +56,7 @@ import InputTextArea from "./components/InputTextArea";
 import ModernImageInput from "./components/ModernImageInput";
 import MultiImageInput from "./components/multiImageInput";
 import dynamic from "next/dynamic";
-import { Skeleton } from "../../components/skeleton";
+import { Skeleton } from "./shadcn/skeleton";
 const DynamicInputEditorV2 = dynamic(() => import("./src/InputEditor"), {
   ssr: false,
   loading: () => {
