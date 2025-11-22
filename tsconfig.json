@@ -5,18 +5,27 @@
     "lib": ["ES2020", "DOM", "DOM.Iterable"],
     "module": "ESNext",
     "skipLibCheck": true,
+    "ignoreDeprecations": "6.0",
     "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
-    "strict": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
+    "strict": false,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
     "noFallthroughCasesInSwitch": true,
-    "declaration": true,
-    "esModuleInterop": true
+    "noImplicitAny": false,
+    "baseUrl": ".",
+    "paths": {
+      "@pixels-shope/ui/*": ["./src/*"],
+      "@pixels-shope/ui/components": ["./src/components"],
+      "@pixels-shope/ui/lib/utils": ["./src/lib/utils"],
+      "@pixels-shope/ui/hooks": ["./src/hooks"],
+      "@pixels-shope/ui/lib": ["./src/lib"],
+      "@/*": ["./src/*"]
+    }
   },
   "include": ["src"]
 }

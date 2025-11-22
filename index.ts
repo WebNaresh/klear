@@ -1,1 +1,1 @@
-import * from "./src/InputField"
+export * from "./src/InputField"
