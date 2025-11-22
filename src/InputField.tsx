@@ -57,7 +57,7 @@ import ModernImageInput from "./components/ModernImageInput";
 import MultiImageInput from "./components/multiImageInput";
 import dynamic from "next/dynamic";
 import { Skeleton } from "../../components/skeleton";
-const DynamicInputEditorV2 = dynamic(() => import("./InputEditorJS"), {
+const DynamicInputEditorV2 = dynamic(() => import("./src/InputEditor"), {
   ssr: false,
   loading: () => {
     return <Skeleton className="h-40 w-full rounded-md" />;
