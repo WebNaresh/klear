@@ -32,8 +32,12 @@
     "react",
     "input",
     "form",
-    "ui"
+    "ui",
+    "shadcn",
+    "shadcn-ui",
+    "radix-ui",
+    "tailwind"
   ],
-  "author": "",
+  "author": "WebNaresh",
   "license": "MIT"
 }
